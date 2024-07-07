@@ -1,0 +1,14 @@
+<div class="">  
+  @if(user){
+    <app-navbar/>
+    <div class="min-h-[90vh]">
+      
+    <router-outlet></router-outlet>
+  </div>
+  }
+  @else{
+    <app-auth/>
+  }
+</div>
+
+
